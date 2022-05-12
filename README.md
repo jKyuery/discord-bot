@@ -1,2 +1,2 @@
 # discord-bot
-Discord bot used on the server. Will brainstorm ideas soon
+Discord bot used on the server. Will repurpose it very soon

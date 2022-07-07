@@ -37,7 +37,7 @@ deactivate () {
 # unset irrelevant variables
 deactivate nondestructive
 
-VIRTUAL_ENV=$(cygpath "C:\Users\kshim\GitHub\discord-bot\discord-bot")
+VIRTUAL_ENV=$(cygpath "C:\Users\kshim\GitHub\discord-bot\qualifact")
 export VIRTUAL_ENV
 
 _OLD_VIRTUAL_PATH="$PATH"
@@ -54,7 +54,7 @@ fi
 
 if [ -z "${VIRTUAL_ENV_DISABLE_PROMPT:-}" ] ; then
     _OLD_VIRTUAL_PS1="${PS1:-}"
-    PS1="(discord-bot) ${PS1:-}"
+    PS1="(qualifact) ${PS1:-}"
     export PS1
 fi
 

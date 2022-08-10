@@ -1,5 +1,8 @@
-# discord-bot
-Discord bot used to calculate crit value and build value solely based off of crit rate and damage for a certain action open world RPG game.
+# Unknown Bot
+Discord bot used for multipurpose functionality (see todo below)
 
-Will use OpenCV and Python language to achieve this goal.
+# TODO
 
+- Resin alert
+- Display paimon.moe stats
+- Calculate crit value/build value

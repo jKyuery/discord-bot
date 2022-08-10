@@ -6,3 +6,4 @@ Discord bot used for multipurpose functionality (see todo below) for a specific 
 - Resin alert
 - Display paimon.moe stats
 - Calculate crit value/build value
+- Register user

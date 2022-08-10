@@ -1,5 +1,5 @@
 # Unknown Bot
-Discord bot used for multipurpose functionality (see todo below)
+Discord bot used for multipurpose functionality (see todo below) for a specific open world ARPG game
 
 # TODO
 

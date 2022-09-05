@@ -1,13 +1,21 @@
-from email import message
+from collections import defaultdict
+
 import discord
-import commands as cm
+from discord.ext.commands import Command
+from sqlalchemy import select
 
-class myClient(discord.client):
-    async def on_ready(self):
-        print('Logged on as {0}!'.format(self.user))
+# User defined imports
 
-    async def on_message(self):
-        print('Message sent from {0.author}:{0.content}'.format(message))
 
-client = myClient()
-client.run('token')
+# class myClient(discord.client):
+#     async def on_ready(self):
+#         print('Logged on as {0}!'.format(self.user))
+
+#     async def on_message(self):
+#         print('Message sent from {0.author}:{0.content}'.format(message))
+# def main():
+#     client = myClient()
+#     client.run('token')
+
+# if __name__ == "__main__":
+#     main()

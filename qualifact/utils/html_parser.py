@@ -1,4 +1,3 @@
-from re import L
 from urllib.request import urlopen
 
 from lxml.html import parse

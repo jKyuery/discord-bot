@@ -1,9 +1,7 @@
 # Unknown Bot
-Discord bot used for multipurpose functionality (see todo below) for a specific open world ARPG game
+Discord bot used for who knows what
 
-# TODO
+# Message from dev
+Well now that a certain company decided to DMCA a repo that this bot depends on now what?
+Guess I'll just repurpose it again into something new for my own discord server then
 
-- Resin alert
-- Display paimon.moe stats
-- Calculate crit value/build value
-- Register user

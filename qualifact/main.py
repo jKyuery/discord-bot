@@ -2,7 +2,6 @@ from collections import defaultdict
 
 import discord
 from discord.ext.commands import Command
-from sqlalchemy import select
 
 # User defined imports
 

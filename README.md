@@ -1,9 +1,5 @@
 # Unknown Bot
-Discord bot used for multipurpose functionality (see todo below) for a specific open world ARPG game
+Discord bot to calculate cv
 
-# TODO
 
-- Resin alert
-- Display paimon.moe stats
-- Calculate crit value/build value
-- Register user
+

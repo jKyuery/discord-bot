@@ -1,4 +1,3 @@
 # ignore personal files as well as files > 50MB
 cv2
 .env
-pyvenv.cfg

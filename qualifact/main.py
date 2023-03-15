@@ -1,20 +1,25 @@
-from collections import defaultdict
-
+import os
 import discord
+import commands
 from discord.ext.commands import Command
+from dotenv import load_dotenv
 
+load_dotenv()
+TOKEN = os.getenv("DISCORD_TOKEN")
+GUILD = os.getenv("DISCORD_GUILD")
 # User defined imports
 
+# Path: user img input -> parse image -> calculate -> return number 
+# or {double, double} -> calculate -> return number
 
-# class myClient(discord.client):
-#     async def on_ready(self):
-#         print('Logged on as {0}!'.format(self.user))
+client = discord.Client()
 
-#     async def on_message(self):
-#         print('Message sent from {0.author}:{0.content}'.format(message))
-# def main():
-#     client = myClient()
-#     client.run('token')
+@client.event
+async def on_ready():
+    for guild in client.guilds:
+        if guild.name == GUILD:
+            break
 
-# if __name__ == "__main__":
-#     main()
+    print(
+        f'{client_user} is connected to: ' f'{guild.name}(id : {guild.id})'
+    )

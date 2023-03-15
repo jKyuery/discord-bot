@@ -1,0 +1,4 @@
+# ignore big files
+cv2
+.env
+
